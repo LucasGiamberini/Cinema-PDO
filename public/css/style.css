@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  list-style-type: none;
+
+}
+
+
+
+body{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://th.bing.com/th/id/OIP.oB7YrL6TtLnnTJsmxvUwCgHaEn?rs=1&pid=ImgDetMain") ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.background{
+  
+  height: 100px ;
+   
+}
+
+/*////////////////////////////////////Header////////////////////////////////////////////////////*/
+header{
+  background-color: rgb(164, 15, 15);
+  height: 100px;
+  width: 90%;
+  display: flex;
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.Decoration{
+  text-decoration: none;
+  color:white;
+}
+
+
+nav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+
+a{
+  color: rgb(226 253 73);
+}
+
+.logo{
+  height:100px;
+}
+
+/*////////////////////////////////////////main///////////////////////////////////////////////*/
+
+main{
+width:80%;
+background-color: rgb(138, 79, 6);
+padding:20px ;
+}
+
+
+
+/*/////////////////////////////movie display ///////////////*/
+
+.movieList{
+  margin-bottom: 40px;
+}
+
+
+.poster{
+  height: 322px;
+  max-width:200px;
+  padding: 20px;
+}
+
+
+
+.movieTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+/*/////////////////////////////////////listGenre//////////////////////////////////////////////*/
+
+.listGenre{
+  display: flex;
+  justify-content: space-around;
+  font-variant: small-caps;
+  font-size: 25px;
+  padding-top: 35px;
+}
+
+
+/*///////////////////////////////////////detail film and actor//////////////////////////////////////////////*/
+#pictureDetail{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  border-bottom: solid 2px rgb(164, 15, 15 );
+  padding-bottom: 30px;
+}
+
+
+
+.title{
+  display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+    font-family: Chalkduster, fantasy ;
+    font-size: 50px;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+
+.detailMoviePoster{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sinopsis{
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.posterDetailMovie{
+
+  height: 368px;
+  width: 300px;
+}
+
+.bottomPoster{
+
+  width: 93%;
+  justify-content: center;
+}
+
+.figurePoster{
+  display: flex;
+ 
+
+}
+
+#detail{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#info{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#review{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 2px rgb(164, 15, 15);
+  border-bottom: solid 2px rgb(164, 15, 15);
+  margin-bottom: 20px;
+}
+
+#listActor{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#dataSinopsis{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+
+}
+
+.leftRed{
+  border-left: 4px solid rgb(164, 15, 15) ;
+}
+
+/*//////////////////////////person/////////////////////////////////*/
+
+.personBio{
+  display:flex;
+  flex-direction: column;
+  margin-left:20px ;
+  margin-top:15px;
+}
+
+#biography{
+  width:80%;
+
+}
+
+#portrait{
+  height: 368px;
+  width: 300px;
+}
+
+/*///////////////////////////////////footer/////////////////////////////////////////////////*/
+footer{
+  color:white;
+}
+
+
+/*//////////////////////////////////////////presentation films////////////////////////////////////*/
+
+.movie {
+  display: flex;
+  justify-content: space-around;
+}
+/*////////////////////////////////////menu Add///////////////////////////////*/
+
+.button{
+  background-color: rgb(164, 15, 15) ;
+  text-decoration: none;
+  color: aliceblue;
+  height: 30px;
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+
+/*////////////////////////////////////////////Add/Update//////////////////////////////*/
+
+.inputAdd{
+color:black;
+}
+
+.buttonUpdate{
+  padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+/*/////////////////////// Menu update ///////////////////////////////////*/
+
+#choice{
+  color:black;
+}
+
+.menuMovieChoiceUpDel{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menuUpdate{
+  display :flex;
+  justify-content: space-around;
+}
+
+.form{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
