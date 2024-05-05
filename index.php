@@ -11,7 +11,7 @@ require_once "controller/UpdateControler.php";
 
 
 
-// Appel de la function autoload pour charger automatiquement tout les controllers crées
+// Appel de la function autoload pour charger automatiquement le bon controleur
 spl_autoload_register(function ($class_name) {
     require_once 'controller/' . $class_name . '.php';
 });

@@ -142,7 +142,7 @@ padding:20px ;
   display: flex;
     justify-content: center;
     margin-bottom: 30px;
-   
+   font-weight: 500;
     font-family: Chalkduster, fantasy ;
     font-size: 50px;
 }
